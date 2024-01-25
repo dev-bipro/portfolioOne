@@ -1,0 +1,52 @@
+#about {
+  margin-top: 150px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+  padding-left: 50px;
+  padding-right: 8%;
+}
+.aboutHeading {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.aboutSubHeading {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--main-color);
+    margin-bottom: 80px;
+}
+.aboutPara {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    padding-right: 20%;
+    margin-bottom: 40px;
+}
+
+.myDetills {
+    display: flex;
+    gap: 80px;
+}
+.myDetills ul .myD {
+    display: flex;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.myDetills ul .myD:last-child {
+    text-transform: lowercase;
+    margin-bottom: 0;
+}
+.myD strong {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--main-color);
+}

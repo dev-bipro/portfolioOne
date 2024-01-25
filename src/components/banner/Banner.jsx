@@ -76,14 +76,12 @@ function Banner() {
       </div>
       <Pragraph
         className="bannerPara"
-        title="Hello! I am Web Developer from United States, New York. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique."
+        title="hello! i am MERN stack developer from bangladesh, dhaka. i have rich experience in web site design and building. i love to talk with you about our unique."
       />
-      <Flex>
-        <DownloadButton className="navBtn">
-          <span>contact me</span>
-          <FaChevronRight />
-        </DownloadButton>
-      </Flex>
+      <DownloadButton className="navBtn">
+        <span>contact me</span>
+        <FaChevronRight />
+      </DownloadButton>
     </div>
   );
 }

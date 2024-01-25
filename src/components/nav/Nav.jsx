@@ -22,7 +22,7 @@ function Nav() {
               <a href="#home">home</a>
             </ListItem>
             <ListItem className="navItem" key="2">
-              <a href="#ami">about</a>
+              <a href="#about">about</a>
             </ListItem>
             <ListItem className="navItem" key="3">
               <a href="#">resume</a>

@@ -2,6 +2,7 @@ import ImageComp from "./components/ImageComp";
 import Nav from "./components/nav/Nav";
 import myImage from "./assets/myImage.webp";
 import Banner from "./components/banner/Banner";
+import About from "./components/about/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <div className="bodyContent">
             <div className="bodySideBar"></div>
             <Banner />
+            <About />
             {/* <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi,
               nulla praesentium cupiditate explicabo exercitationem soluta

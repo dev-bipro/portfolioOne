@@ -14,6 +14,7 @@
   align-items: center;
   padding-left: 100px;
   margin-left: -200px;
+  margin-bottom: 20px;
 }
 
 .bannerName {
@@ -39,5 +40,5 @@
   font-size: 14px;
   line-height: 1.7;
   padding-right: 325px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
