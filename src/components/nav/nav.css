@@ -1,0 +1,172 @@
+#navbar {
+  width: 90%;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 40px;
+  position: fixed;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 111;
+  background: #585d65;
+}
+
+.navContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLogo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-family: var(--Poppins);
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.navItemAndButton {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navItems {
+  display: flex;
+  gap: 20px;
+}
+.navItem {
+  position: relative;
+}
+
+.navItem:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--main-color);
+}
+.navItem a {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+  transition: all linear 0.3s;
+}
+.navItem a:hover {
+  color: var(--main-color);
+}
+
+/* .navItem a {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  width: 95.02px;
+  height: 42.66px;
+  border: none;
+  background-color: #3653f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navItem a .span-mother {
+  display: flex;
+  overflow: hidden;
+}
+
+.navItem a:hover .span-mother {
+  position: absolute;
+}
+
+.navItem a:hover .span-mother span {
+  transform: translateY(1.2em);
+}
+
+.navItem a .span-mother span:nth-child(1) {
+  transition: 0.2s;
+}
+
+.navItem a .span-mother span:nth-child(2) {
+  transition: 0.3s;
+}
+
+.navItem a .span-mother span:nth-child(3) {
+  transition: 0.4s;
+}
+
+.navItem a .span-mother span:nth-child(4) {
+  transition: 0.5s;
+}
+
+.navItem a .span-mother span:nth-child(5) {
+  transition: 0.6s;
+}
+
+.navItem a .span-mother span:nth-child(6) {
+  transition: 0.7s;
+}
+
+.navItem a .span-mother2 {
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+}
+
+.navItem a .span-mother2 span {
+  transform: translateY(-1.2em);
+}
+
+.navItem a:hover .span-mother2 span {
+  transform: translateY(0);
+}
+
+.navItem a .span-mother2 span {
+  transition: 0.2s;
+}
+
+.navItem a .span-mother2 span:nth-child(2) {
+  transition: 0.3s;
+}
+
+.navItem a .span-mother2 span:nth-child(3) {
+  transition: 0.4s;
+}
+
+.navItem a .span-mother2 span:nth-child(4) {
+  transition: 0.5s;
+}
+
+.navItem a .span-mother2 span:nth-child(5) {
+  transition: 0.6s;
+}
+
+.navItem a .span-mother2 span:nth-child(6) {
+  transition: 0.7s;
+} */
+
+.navBtn {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  transition: all linear 0.3s;
+}
+.navBtn:hover {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
