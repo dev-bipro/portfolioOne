@@ -1,7 +1,7 @@
 import Flex from "../Flex";
 import Heading from "../Heading";
 import List from "../List";
-import ListItemForDe from "../ListItemForDe";
+import ListItem from "../ListItem";
 import Pragraph from "../Pragraph";
 import "./about.css";
 function About() {
@@ -19,27 +19,33 @@ function About() {
       />
       <Flex>
         <Flex className="myDetills">
-          <List>
-            <ListItemForDe className="myD" title="20">
-              <strong>age :</strong>
-            </ListItemForDe>
-            <ListItemForDe className="myD" title="available">
-              <strong>freelance :</strong>
-            </ListItemForDe>
-            <ListItemForDe className="myD" title="+880 14009-01513">
-              <strong>phone :</strong>
-            </ListItemForDe>
+          <List className="myDUl">
+            <ListItem className="myD">
+              <span>age :</span>
+              <span>20</span>
+            </ListItem>
+            <ListItem className="myD">
+              <span>freelance :</span>
+              <span>available</span>
+            </ListItem>
+            <ListItem className="myD">
+              <span>phone :</span>
+              <span>+880 14009-01513</span>
+            </ListItem>
           </List>
-          <List>
-            <ListItemForDe className="myD" title="bangladeshi">
-              <strong>residence :</strong>
-            </ListItemForDe>
-            <ListItemForDe className="myD" title="dhanmondi, dhaka">
-              <strong>address :</strong>
-            </ListItemForDe>
-            <ListItemForDe className="myD" title="bipropodderr@gmail.com">
-              <strong>e-mail :</strong>
-            </ListItemForDe>
+          <List className="myDUl">
+            <ListItem className="myD">
+              <span>residence :</span>
+              <span>bangladeshi</span>
+            </ListItem>
+            <ListItem className="myD">
+              <span>address :</span>
+              <span>dhanmondi, dhaka</span>
+            </ListItem>
+            <ListItem className="myD">
+              <span>e-mail :</span>
+              <span>bipropodderr@gmail.com</span>
+            </ListItem>
           </List>
         </Flex>
       </Flex>

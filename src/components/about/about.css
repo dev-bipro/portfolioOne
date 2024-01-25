@@ -3,7 +3,7 @@
   padding-bottom: 60px;
   border-bottom: 1px solid rgb(255, 255, 255, 0.3);
   padding-left: 50px;
-  padding-right: 8%;
+  padding-right: 14%;
 }
 .aboutHeading {
     text-transform: capitalize;
@@ -32,21 +32,28 @@
     display: flex;
     gap: 80px;
 }
-.myDetills ul .myD {
+.myDUl {
+    width: 35%;
+}
+.myD {
+    width: 100%;
     display: flex;
+    gap: 10px;
     text-transform: capitalize;
     font-size: 14px;
     margin-bottom: 10px;
 }
-.myDetills ul .myD:last-child {
+.myD:last-child {
     text-transform: lowercase;
     margin-bottom: 0;
 }
-.myD strong {
-    display: inline-block;
-    vertical-align: top;
-    width: 120px;
+.myD span {
+    width: 50%;
+}
+.myD span:first-child {
+    width: 40%;
     font-weight: 600;
     text-transform: uppercase;
     color: var(--main-color);
 }
+

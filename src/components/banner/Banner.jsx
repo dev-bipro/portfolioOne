@@ -76,7 +76,7 @@ function Banner() {
       </div>
       <Pragraph
         className="bannerPara"
-        title="hello! i am MERN stack developer from bangladesh, dhaka. i have rich experience in web site design and building. i love to talk with you about our unique."
+        title="hello! i am MERN stack developer from 🇧🇩bangladesh, dhaka. i have rich experience in web site design and building. i love to talk with you about our unique."
       />
       <DownloadButton className="navBtn">
         <span>contact me</span>
