@@ -60,7 +60,7 @@ function Banner() {
           <span style={{ textTransform: "uppercase", color: "#68e0cf" }}>
             mr
           </span>
-          <span style={{ textTransform: "capitalize" }}>podder</span>
+          <span style={{ textTransform: "uppercase" }}>p🌎dder</span>
         </Heading>
       </div>
       <div className="bannerTypes">

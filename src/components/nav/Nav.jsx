@@ -18,7 +18,7 @@ function Nav() {
         <Flex className="navItemAndButton">
 
           <List className="navItems">
-            <ListItem className="navItem" key="1">
+            <ListItem className="navItem active" key="1">
               <a href="#home">home</a>
             </ListItem>
             <ListItem className="navItem" key="2">

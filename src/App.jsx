@@ -3,6 +3,7 @@ import Nav from "./components/nav/Nav";
 import myImage from "./assets/myImage.webp";
 import Banner from "./components/banner/Banner";
 import About from "./components/about/About";
+import Services from "./components/services/Services";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <div className="bodySideBar"></div>
             <Banner />
             <About />
+            <Services />
             {/* <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi,
               nulla praesentium cupiditate explicabo exercitationem soluta
